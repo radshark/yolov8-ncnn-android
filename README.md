@@ -60,6 +60,8 @@ success = model.export(format="onnx", simplify=True, opset=11)
 (6)将onnx文件转换成param、bin文件
 下载ncnn-20231027-windows-vs2019解压后，打开文件夹，并将best-sim.onnx复制到该文件夹的对应位置，地址栏输入cmd后，在打开的命令行窗口输入`onnx2ncnn.exe best-sim.onnx best.param best.bin`，原文件夹生成了需要的bin文件和param文件
 
+(7)模型转换完成后，恢复block.py、head.py代码。
+
 # Android项目
 (1)项目结构，参考https://github.com/FeiGeChuanShu/ncnn-android-yolov8/tree/main/ncnn-android-yolov8
 ![image](https://github.com/user-attachments/assets/41a97bb3-9afe-4449-9cf9-6e3431710b9b)
