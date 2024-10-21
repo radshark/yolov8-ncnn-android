@@ -75,6 +75,7 @@ success = model.export(format="onnx", simplify=True, opset=11)
 ![image](https://github.com/user-attachments/assets/088d3b50-21bf-40ec-991e-1377e43a680d)
 
 (5)修改yolo.cpp
+
 a.类型数量
 
 ![image](https://github.com/user-attachments/assets/aaa7998d-0f7a-4225-82e0-40df4e5bf4b8)
