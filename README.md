@@ -64,24 +64,32 @@ success = model.export(format="onnx", simplify=True, opset=11)
 (1)项目结构，参考https://github.com/FeiGeChuanShu/ncnn-android-yolov8/tree/main/ncnn-android-yolov8
 ![image](https://github.com/user-attachments/assets/41a97bb3-9afe-4449-9cf9-6e3431710b9b)
 
-(2)输出的bin和param放到项目assert文件下
+(2)下载的ncnn-20231027-android-vulkan、opencv-mobile-3.4.20-android 解压到jni目录下
+
+(3)输出的bin和param放到项目assert文件下
+
 ![image](https://github.com/user-attachments/assets/846b15d5-995a-4044-889c-3a950afa63c2)
 
-(3)修改CMakeList
+(4)修改CMakeList
+
 ![image](https://github.com/user-attachments/assets/088d3b50-21bf-40ec-991e-1377e43a680d)
 
-(4)修改yolo.cpp
+(5)修改yolo.cpp
 a.类型数量
+
 ![image](https://github.com/user-attachments/assets/aaa7998d-0f7a-4225-82e0-40df4e5bf4b8)
 
 b.类型名称
+
 ![image](https://github.com/user-attachments/assets/ee5376ad-e340-4c7b-a72c-a45c8d4a5235)
 
 c.模型名称
+
 ![image](https://github.com/user-attachments/assets/09f11f41-9d40-429b-9521-d183c627ae83)
 
-(5)修改strings.xml文件
+(6)修改strings.xml文件
+
 ![image](https://github.com/user-attachments/assets/4a3e3b9d-c366-4d82-a127-f4406fb976cc)
 
-(6)编译运行
+(7)编译运行
 
