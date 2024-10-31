@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="m_spinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

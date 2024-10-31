@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ncnn-yolov8</string>
+    <string name="back">返回</string>
+    <string name="affirm">确认</string>
+    <string name="ok">正常</string>
+    <string name="Tjie">T接</string>
+    <string name="Xujie">虚接</string>
+    <string name="no_meter">无表用电</string>
+    <string name="gaibiao">改表</string>
     <string-array name="model_array">
         <item>红外模型S</item>
         <item>通用模型N</item>
-        <item>通用模型S</item>
     </string-array>
     <string-array name="cpugpu_array">
         <item>CPU</item>

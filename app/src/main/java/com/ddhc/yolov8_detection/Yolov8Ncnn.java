@@ -27,4 +27,6 @@ public class Yolov8Ncnn
     static {
         System.loadLibrary("yolov8ncnn");
     }
+
+    public native void setProb(float jprob_thresholdi);
 }
